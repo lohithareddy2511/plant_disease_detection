@@ -34,9 +34,9 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 ├── test\_code.ipynb               
 ├── trained\_plant\_disease\_model.keras  
 └── dataset/
-├── train/
-├── test/
-└── validation/
+  ├── train/
+  ├── test/
+  └── validation/
 
 ## 🧪 Model Architecture (TensorFlow CNN)
 
@@ -170,9 +170,7 @@ streamlit run new.py
 
 ## 👨‍💻 Author
 
-* **Your Name**
-* Email: [your.email@example.com](mailto:your.email@example.com)
-* GitHub: [@yourusername](https://github.com/yourusername)
+* **K. Lohitha Reddy**
 
 ## 🔗 Related Links
 
