@@ -1,11 +1,8 @@
 # plant_disease_detection
 
-```markdown
 # 🌿 Plant Disease Recognition & Recommendation System
 
 A full-stack intelligent system that identifies plant diseases from images, offers treatment advice using Large Language Models (LLMs), provides real-time weather insights, and suggests nearby agro shops – all accessible through a sleek Streamlit web interface.
-
----
 
 ## 📦 Dataset Information
 
@@ -20,8 +17,6 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 - **Image Format**: JPEG
 - **Structure**: Folder-per-class classification format
 
----
-
 ## ✨ Features
 
 | Feature                        | Description                                                                 |
@@ -33,26 +28,18 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 | 🧑‍🎨 Multilingual UI          | English, Hindi, and Telugu language support                                 |
 | ⚡ Streamlit Web Interface    | Clean, interactive UI for easy access and navigation                        |
 
----
-
 ## 📁 Directory Structure
 
-```
-
 .
-├── new\.py                          # Streamlit app
-├── config.json                    # API key configuration
-├── train\_code.ipynb              # Model training notebook
-├── test\_code.ipynb               # Model testing/validation notebook
-├── trained\_plant\_disease\_model.keras  # Saved TensorFlow model
+├── new\.py                         
+├── config.json                    
+├── train\_code.ipynb              
+├── test\_code.ipynb               
+├── trained\_plant\_disease\_model.keras  
 └── dataset/
 ├── train/
 ├── test/
 └── validation/
-
-````
-
----
 
 ## 🧪 Model Architecture (TensorFlow CNN)
 
@@ -67,12 +54,7 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 - **Metrics**: Accuracy
 
 Train using:
-
-```bash
 jupyter notebook train_code.ipynb
-````
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -126,8 +108,6 @@ Note: The Groq key is needed for treatment suggestions and nearby shop search.
 streamlit run new.py
 ```
 
----
-
 ## 🧠 How It Works
 
 ### 📸 Disease Detection
@@ -146,8 +126,6 @@ streamlit run new.py
 * OpenWeatherMap API fetches temperature, humidity, condition.
 * Threshold alerts for excessive temperature or moisture.
 
----
-
 ## 🌐 UI Pages
 
 | Page                   | Functionality                                                       |
@@ -158,7 +136,6 @@ streamlit run new.py
 | 🌦 Weather Monitoring  | Location-based weather metrics                                      |
 | 🛒 Nearby Shops        | Manual search for vendors treating specific diseases                |
 
----
 
 ## 🔐 API Integration
 
@@ -178,8 +155,6 @@ streamlit run new.py
 * Location-based weather forecast
 * API Key required: [https://openweathermap.org/api](https://openweathermap.org/api)
 
----
-
 ## 🔥 Example Use Case
 
 1. Upload a leaf with spots.
@@ -192,29 +167,21 @@ streamlit run new.py
 
    * 35°C, 80% humidity → high risk alert.
 
----
-
 ## 🚫 Limitations
 
 * ⚠️ LLM output is text-based; shop data is not geocoded.
 * 📡 Requires internet for API requests.
 * 🧪 Model may overfit if dataset not balanced well.
 
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👨‍💻 Author
 
 * **Your Name**
 * Email: [your.email@example.com](mailto:your.email@example.com)
 * GitHub: [@yourusername](https://github.com/yourusername)
-
----
 
 ## 🙋‍♀️ Contributing
 
@@ -224,8 +191,6 @@ PRs are welcome! To contribute:
 fork → clone → create branch → commit → push → pull request
 ```
 
----
-
 ## 📌 TODO (Future Improvements)
 
 * [ ] Use real map API (e.g., Google Maps) for precise shop location
@@ -233,14 +198,10 @@ fork → clone → create branch → commit → push → pull request
 * [ ] Improve multi-language support (ML-based translation)
 * [ ] Optimize model for mobile performance
 
----
-
 ## 🔗 Related Links
 
 * [Groq LLM API](https://console.groq.com/)
 * [OpenWeatherMap](https://openweathermap.org/)
 * [Kaggle Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
-
----
 
 ```
