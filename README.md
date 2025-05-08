@@ -1,5 +1,3 @@
-# plant_disease_detection
-
 # 🌿 Plant Disease Recognition & Recommendation System
 
 A full-stack intelligent system that identifies plant diseases from images, offers treatment advice using Large Language Models (LLMs), provides real-time weather insights, and suggests nearby agro shops – all accessible through a sleek Streamlit web interface.
@@ -30,7 +28,6 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 
 ## 📁 Directory Structure
 
-.
 ├── new\.py                         
 ├── config.json                    
 ├── train\_code.ipynb              
@@ -203,5 +200,3 @@ fork → clone → create branch → commit → push → pull request
 * [Groq LLM API](https://console.groq.com/)
 * [OpenWeatherMap](https://openweathermap.org/)
 * [Kaggle Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
-
-```
