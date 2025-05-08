@@ -170,30 +170,11 @@ streamlit run new.py
 * 📡 Requires internet for API requests.
 * 🧪 Model may overfit if dataset not balanced well.
 
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 * **Your Name**
 * Email: [your.email@example.com](mailto:your.email@example.com)
 * GitHub: [@yourusername](https://github.com/yourusername)
-
-## 🙋‍♀️ Contributing
-
-PRs are welcome! To contribute:
-
-```bash
-fork → clone → create branch → commit → push → pull request
-```
-
-## 📌 TODO (Future Improvements)
-
-* [ ] Use real map API (e.g., Google Maps) for precise shop location
-* [ ] Enable model retraining via UI
-* [ ] Improve multi-language support (ML-based translation)
-* [ ] Optimize model for mobile performance
 
 ## 🔗 Related Links
 
