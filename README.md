@@ -34,10 +34,7 @@ A full-stack intelligent system that identifies plant diseases from images, offe
 ├── test\_code.ipynb               
 ├── trained\_plant\_disease\_model.keras  
 └── dataset/
-  ├── train/
-  ├── test/
-  └── validation/
-
+ 
 ## 🧪 Model Architecture (TensorFlow CNN)
 
 - **Input Size**: (128x128x3)
@@ -169,8 +166,7 @@ streamlit run new.py
 * 🧪 Model may overfit if dataset not balanced well.
 
 ## 👨‍💻 Author
-
-* **K. Lohitha Reddy**
+  **K. Lohitha Reddy**
 
 ## 🔗 Related Links
 
