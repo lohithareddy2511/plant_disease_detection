@@ -97,9 +97,7 @@ Create `config.json`:
 
 Note: The Groq key is needed for treatment suggestions and nearby shop search.
 
----
-
-## 🚀 Running the Application
+### 5. Running the Application
 
 ```bash
 streamlit run new.py
